@@ -1,4 +1,4 @@
-In this project a command-line parcer is implemented.
+In this project a command-line parser is implemented.
 
 The following arguments are supported:
 
@@ -10,10 +10,10 @@ The following arguments are supported:
 
 --value | -v [=list_of_subargs] - to specify a list of values to proccess
 
-Argument passed several times (in long and/or short form(s)) is proccessed only once and if different subarguments are passed, only the first taken subarguments are taken into consideration.
+An argument passed several times (in long and/or short form(s)) is processed only once and if different subarguments are passed, only the first taken subarguments are taken into consideration.
 
-List of subarguments to an argument should be passed after '=' and separated by commas without spaces.
+A list of subarguments to an argument should be passed after '=' and separated by commas without spaces.
 
-Arguments in short form can be passed in group, in case of passing subarguments, they are considered as passed to the last argument.
+Arguments in short form can be passed in a group, in case of passing subarguments, they are considered as passed to the last argument.
 
-Arguments passed to the program are printed in console, in case of passing unknown arguments or subarguments to unapproriate command, a corresponding error message is printed.
+Arguments passed to the program are printed in the console, in case of passing unknown arguments or subarguments to inapproriate command, a corresponding error message is printed.
